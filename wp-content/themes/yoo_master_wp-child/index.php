@@ -84,3 +84,5 @@ $cursor = $collection->find();
 foreach($cursor as $document){
 	var_dump($document);
 }
+
+echo 'end';
